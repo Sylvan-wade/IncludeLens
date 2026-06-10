@@ -1,6 +1,6 @@
 ﻿# IncludeLens
 
-IncludeLens 是一个基于 C++17 的 Windows 控制台工具，用来分析 C/C++ 项目里的 `#include` 依赖关系。
+IncludeLens 是一个基于 C++17 的 Windows 控制台工具，用来分析 C++ 项目里的 `#include` 依赖关系。
 
 它的核心思路是：把每一个源码文件或头文件看成图里的一个节点，把项目内的 include 关系看成一条有向边。这样，循环 include、修改影响范围、依赖路径解释等问题，都可以转化成图问题来处理。
 
