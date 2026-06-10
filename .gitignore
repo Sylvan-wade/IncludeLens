@@ -1,0 +1,9 @@
+.vs/
+x64/
+build/
+Debug/
+Release/
+*.user
+IncludeLens_outputs/
+outputs/
+work/
